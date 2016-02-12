@@ -18,19 +18,20 @@ add remote github repository to the desired local project folder
 > git remote add laddiso https://github.com/itmitica/laddiso.git
 
 
-pull remote files, to desired local project folder,
+pull remote files, to the desired local project folder,
 in case there are files not existent locally
 > git pull laddiso master
 
 
-if there are changes in the project files in the folder where you run git
+if there are changes of the project files in the local folder where you run git
 > git add .
 
 
-commit changes to desired local project folder
+commit changes to the desired local project folder
 > git commit
 
 
 push local files to remote project github repository
 > git push laddiso
+
 
