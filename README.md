@@ -13,6 +13,8 @@ configure user and email
 initialize in the desired local project folder
 > git init
 
+create .gitignore file and add rules: *.bak, *.exe, *.o, app binary e.g. laddiso
+> touch .gitignore
 
 add remote github repository to the desired local project folder
 > git remote add laddiso https://github.com/itmitica/laddiso.git
