@@ -16,6 +16,11 @@ initialize in the desired local project folder
 create .gitignore file and add rules: *.bak, *.exe, *.o, app binary e.g. laddiso
 > touch .gitignore
 
+remove ignored files created prior to .gitignore creation
+> git rm --cached *.bak
+> git rm --cached -r lib/
+> git rm --cached laddiso
+
 add remote github repository to the desired local project folder
 > git remote add laddiso https://github.com/itmitica/laddiso.git
 
