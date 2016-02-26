@@ -39,6 +39,6 @@ commit changes to the desired local project folder
 
 
 push local files to remote project github repository
-> git push laddiso
+> git push laddiso master
 
 
