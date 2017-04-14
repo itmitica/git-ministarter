@@ -21,9 +21,16 @@ remove ignored files created prior to .gitignore creation
 > git rm --cached -r lib/
 > git rm --cached laddiso
 
+either
+
+> git clone https://github.com/itmitica/laddiso.git
+to create "origin" remotes
+and locally add all branches to sync with
+
+or
+
 add remote github repository to the desired local project folder
 > git remote add laddiso https://github.com/itmitica/laddiso.git
-
 
 pull remote files, to the desired local project folder,
 in case there are files not existent locally
